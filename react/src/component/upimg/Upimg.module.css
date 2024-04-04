@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 70vh;
+}
+
+.uploadControl {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 버튼과 파일 이름 사이의 간격 */
+    margin-bottom: 20px; /* 이미지와의 간격 */
+}
+
+.fileInput {
+    display: none; /* 기본 파일 입력 숨기기 */
+}
+
+.fileInputLabel, .uploadButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.fileInputLabel {
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.imagePreview {
+    max-height: 50vh; /* 화면 높이의 30% */
+    max-width: 40vw; /* 화면 너비의 40% */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.graphContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.font{
+    font-family: 'Marker Felt', sans-serif;
+    margin-bottom: 5vh;
+}

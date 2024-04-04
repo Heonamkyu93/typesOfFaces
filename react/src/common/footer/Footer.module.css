@@ -1,0 +1,6 @@
+.foot {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬을 위해 수정 */
+    align-items: center;
+    padding: 20px;
+}
