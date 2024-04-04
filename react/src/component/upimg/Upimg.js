@@ -64,6 +64,7 @@ const Upimg = () => {
                 updateChartData(response.data);
             } catch (error) {
                 console.error('업로드 실패:', error);
+                alert(error.response.data.detail);
             }
         }
     };
